@@ -1,0 +1,6 @@
+- **Electrófilo:** es un compuesto que ataca sitios de mayor densidad de carga negativa.
+- **Nucleófilo:** es un compuesto que ataca sitios de mayor densidad de carga positiva.
+- **Carbocatión:** iones de carga positiva con un átomo de C que tiene 6 $\ce{ e- }$ y 3 enalces.
+- **Carbanión:** iónes de carga negativa con un átomo de C que tiene un par de $\ce{ e- }$ no compartidos y 3 enalces.
+- **Radicales:** tienen un electrón desapareado.
+- **Carbeno:** tiene dos electrones separados. En el contexto 

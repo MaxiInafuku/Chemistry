@@ -1,0 +1,2 @@
+Termo: [[Termo]]
+Cinética: [[Cinética]]
