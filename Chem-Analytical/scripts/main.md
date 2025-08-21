@@ -105,8 +105,8 @@ MrK2CO3 = 138.21      #g/mol
 
 #sample = [1.3, 0, 0]    #masses in g
 #sample = [1.3, 0.5, 0] #masses in g
-#sample = [1.3, 0, 0.2] #masses in g
-sample = [1.3,0,0]
+sample = [1.3, 0, 0.2] #masses in g
+#sample = [0,1.2,0]
 
 mK2CO3 = sample[0]    #g
 mNaHCO3 = sample[1]   #g
@@ -146,7 +146,7 @@ for VHCl in VHCls:
 	H = roots[roots>0][0]
 	pH = -np.log10(H)
 	pHs.append(pH)
-  
+
 Figure, ax = plt.subplots()
 #ax.scatter(VHCls, pHs)   #Este es la posta de cómo les da
 ax.plot(VHCls, pHs)       #Este es para gráfico de muestra
@@ -159,9 +159,20 @@ plt.show()
 VHCl_to_NaOH = Va*CNaOH/CHCl0
 VHCl_to_NaHCO3 = Va*CNaHCO3/CHCl0
 VHCl_to_K2CO3 = Va*CK2CO3/CHCl0
-  
+
+NaOH_index = np.searchsorted(VHCls, VHCl_to_NaOH)
+NaHCO3_index = np.searchsorted(VHCls, VHCl_to_NaHCO3)
+K2CO3_index1 = np.searchsorted(VHCls, VHCl_to_K2CO3)
+K2CO3_index2 = np.searchsorted(VHCls, VHCl_to_K2CO3*2)
+
+pH_NaOH = pHs[NaOH_index]
+pH_NaHCO3 = pHs[NaHCO3_index]
+pH1_K2CO3 = pHs[K2CO3_index1]
+pH2_K2CO3 = pHs[K2CO3_index2]
+
 print('Los volumenes de HCl para el primer punto de equivalencia son:')
-print('NaOH:{:.4g} mL, NaHCO3:{:.4g} mL, K2CO3:{:.4g} mL' .format(VHCl_to_NaOH, VHCl_to_NaHCO3, VHCl_to_K2CO3))
+print('V en Peq: NaOH:{:.4g} mL, NaHCO3:{:.4g} mL, K2CO3:{:.4g} mL' .format(VHCl_to_NaOH, VHCl_to_NaHCO3, VHCl_to_K2CO3))
+print('pH en Peq: NaOH:{:.4g}, NaHCO3:{:.4g}, K2CO3:{:.4g}, {:.4g}' .format(pH_NaOH, pH_NaHCO3, pH_K2CO3, pH2_K2CO3))
 ```
 
 ```python

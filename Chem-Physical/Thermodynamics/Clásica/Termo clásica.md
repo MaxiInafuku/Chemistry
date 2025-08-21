@@ -3,3 +3,4 @@ La termodinámica clásica se encara desde un punto de vista matemático, en don
 
 Primer principio: [[Primer principio]]
 Equilibrio: [[Equilibrio químico]]
+Potencial Químico: [[Potencial Químico]]
