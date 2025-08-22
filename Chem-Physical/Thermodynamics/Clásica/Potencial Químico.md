@@ -16,5 +16,3 @@ dG& = -SdT + Vdp + \sum_{i} \mu_{i} dn_{i} &
 \mu_{i} &= \left( \frac{ \partial G }{ \partial n_{i} } \right)_{T,p}
 \end{align}
 $$
-# Gases puros:
-
