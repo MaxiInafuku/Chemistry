@@ -1,4 +1,4 @@
-v- Los alquenos se caracterizan por tener un doble enlace, para lo que se necesita que los C's que lo componen tengan una hibridación $\ce{ sp^{2} }$. Los enlaces $\sigma$ se forman a partir del solapamiento de los orbitales $\ce{ sp^{2} }$ mientras que los orbitales $\pi$ a partir de los $p$ libres. 
+- Los alquenos se caracterizan por tener un doble enlace, para lo que se necesita que los C's que lo componen tengan una hibridación $\ce{ sp^{2} }$. Los enlaces $\sigma$ se forman a partir del solapamiento de los orbitales $\ce{ sp^{2} }$ mientras que los orbitales $\pi$ a partir de los $p$ libres. 
 - Por tener mayor carácter $\ce{ s }$, las distancias de enlace suelen ser más cortas. 
 - Su mayor carácter $\ce{ s }$ también le confiere más electronegatividad que a un C $\ce{ sp^{3} }$, lo que lo vuelve más ácido (soporta mejor la carga negativa de perder el $\ce{ H+ }$), $pKa \approx 44$.
 - El ángulo de enlace es de aproximadamente 120°, dependiendo de los sustituyentes que tenga.
@@ -6,7 +6,7 @@ v- Los alquenos se caracterizan por tener un doble enlace, para lo que se necesi
 - No tienen libre rotación, sino que existe una barrera energética para que la molécula rote alrededor de este enlace, dada por la energía requerida para romper el enlace $\pi$. 
 
 # Síntesis: 
-[[E1 y E2]]
+[[Eliminación]]
 ### E2:
 - Si se utilizan bases fuertes se da por mecanismo E2
 - Suele realizarse a partir de halogenuros de alquilo

@@ -1,4 +1,4 @@
-vvUna sustitución nucleofílica, es una reacción que reemplaza un grupo saliente por un nucleófilo.
+Una sustitución nucleofílica, es una reacción que reemplaza un grupo saliente por un nucleófilo.
 # SN1
 La SN1 se caracteriza por tener un orden global de reacción de 1, que solo depende de la concentración de sustrato:
 $$

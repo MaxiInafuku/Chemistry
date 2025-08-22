@@ -1,4 +1,4 @@
-Dar el producto y mecanismo de las siguientes reacciones ([[Sustitución nucleofílica]], [[E1 y E2]]):
+Dar el producto y mecanismo de las siguientes reacciones ([[Sustitución nucleofílica]], [[Eliminación]]):
 ![[Pasted image 20250811203219.png|center|500]]
 1) SN2, inversión de configuración
 2) E1, da el más sustituido
