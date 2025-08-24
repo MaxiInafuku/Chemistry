@@ -18,4 +18,53 @@ dG& = -SdT + Vdp + \sum_{i} \mu_{i} dn_{i} + \sum_{j} P_{j} dX_{j} &
 \mu_{i} &= \left( \frac{ \partial G }{ \partial n_{i} } \right)_{T,p}
 \end{align}
 $$
+Partiendo de la igualdad con el $dG$, sabemos que:
+$$
+\begin{equation*}
+\mu_{i} = \left( \frac{ \partial G }{ \partial n_{i} }  \right)_{T,p} = f(T,p,n_{i})
+\end{equation*}
+$$
+Por lo tanto, vale que:
+$$
+\begin{align*}
+	d\mu_{i} = \left( \frac{ \partial \mu_{i} }{ \partial T }  \right)_{p,n_{i}} dT + \left( \frac{ \partial \mu_{i} }{ \partial p }  \right)_{T,n_{i}} dp + 
+	\sum_{j} \left( \frac{ \partial \mu_{i} }{ \partial n_{j} }  \right)_{p,n_{k\neq j}} dn_{j}
+\end{align*}
+$$
+Utilizando que
+$$
+\begin{align*}
+\left( \frac{ \partial \mu_{i} }{ \partial T }  \right)_{p,n_{i}} &= 
+\frac{ \partial^{2} G }{ \partial n_{i} \partial T } = 
+\frac{ \partial^{2} G }{ \partial T \partial n_{i} } = 
+\frac{ \partial  }{ \partial n_{i} } \left( \frac{ \partial G }{ \partial T} \right) & 
+-S &= \left( \frac{ \partial G }{ \partial T } \right)_{p,n_{i}} 
+\\
+\left( \frac{ \partial \mu_{i} }{ \partial p }  \right)_{T,n_{i}} &= 
+\frac{ \partial^{2} G }{ \partial n_{i} \partial p } = 
+\frac{ \partial^{2} G }{ \partial p \partial n_{i} } = 
+\frac{ \partial  }{ \partial n_{i} } \left( \frac{ \partial G }{ \partial p} \right) &
+V &= \left( \frac{ \partial G }{ \partial p }  \right)_{T,n_{i}}
+\end{align*}
+$$
+se obtiene
+$$
+\begin{align*}
 
+\left( \frac{ \partial \mu_{i} }{ \partial T }  \right)_{p,n_{i}} &= 
+-\left( \frac{ \partial S }{ \partial n_{i} }  \right)_{T,p,n_{j\neq i}} = 
+-\bar{S}_{i}
+\\
+\left( \frac{ \partial \mu_{i} }{ \partial p }  \right)_{p,n_{i}} &= 
+\left( \frac{ \partial V }{ \partial n_{i} }  \right)_{T,p,n_{j\neq i}} = 
+\bar{V}_{i}
+\end{align*}
+$$
+por lo que puede escribirse el diferencial del potencial químico en término de propiedades parciales molares como:
+$$
+\begin{equation*}
+\boxed{
+d\mu_{i} = -\bar{S}_{i} dT + \bar{V}_{i} dp + \sum_{j} \left( \frac{ \partial \mu_{i} }{ \partial n_{j} }  \right) dn_{j}
+}
+\end{equation*}
+$$
