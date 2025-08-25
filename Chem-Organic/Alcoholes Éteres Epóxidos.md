@@ -38,12 +38,12 @@ $$
 $$
 ### Grignard
 Se pueden sintetizar alcoholes a partir de alcoholes o ésteres. El medio ácido que se utiliza para el workup suele ser ácido sulfúrico diluido. 
-![[Pasted image 20250821120450.png|center|550]]
+![[Pasted image 20250821120450 1.png|center|550]]
 
 A partir de un éster por un ataque doble se puede generar un alcohol terciario.
-![[Pasted image 20250821120847.png|center|550]]
+![[Pasted image 20250821120847 1.png|center|550]]
 Mecanismo: 
-![[Pasted image 20250821121219.png|center|550]]
+![[Pasted image 20250821121219 1.png|center|550]]
 ### Hidratación de alquenos.
 Vista en [[Alquenos]]->Reacciones->Adición de -OH
 ## REACCIONES DE ALCOHOLES
@@ -80,7 +80,7 @@ Para la oxidación del aldheído.
 donde el hidrato de aldehído se forma por simple protonación del aldehído y ataque nucleofílico del agua. Otro detalle es que las desprotonaciones que llevan a la formación de dobles enlaces con átomos de oxígeno, ocurren de forma concertada. 
 
 Una alternativa es el reactivo de Collins o PCC (pyridinium chlorochromate), que se logra con una mezcla de piridina, $\ce{ CrO_{3} }$ y HCl. En estas condiciones, se logra una oxidación débil que es capaz de pasar de un alcohol primario a un aldehído. 
-![[Pasted image 20250821125943.png|center|450]]
+![[Pasted image 20250821125943 1.png|center|450]]
 Mecanismo:
 ![[Pasted image 20250821202651.png|center]]
 Si se planteara el mecanismo para la formación del ácido, se tiene que en el último paso, que lleva a la desprotonación del C y formación del doble enlace del oxígeno, se debe atacar un un hidrógeno unido a un carbono cuyos sustituyentes son: la cadena carbonada, un -OH y el resto del $\ce{ -O-Cr\cdots }$. Los únicos que pueden abstraer este protón son, el $\ce{ Cl- }$ que como base no es lo suficientemente fuerte y la piridina, que por impedimento estérico no lo hace a una velocidad apreciable. Por eso el uso de PCC llega solo hasta aldehído.

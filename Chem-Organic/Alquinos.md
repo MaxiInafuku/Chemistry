@@ -60,3 +60,15 @@ $$
 \ce{ 2RC\bond{#}CH + 2Na -> 2RC\bond{#}C- + 2Na+ + H_{2}(g) }
 \end{align}
 $$
+### Hidratación
+La adición hidratación lleva en primer lugar al enol, que por equilibrio cetoenólico suele dar la cetona correspondiente.
+$$
+\begin{equation*}
+\ce{ R-C\bond{#}C-R' ->[H_{2}O][H_{2}SO_{4}] R-CO-C-R'}
+\end{equation*}
+$$
+Mecanismo: 
+![[Pasted image 20250825133950.png|center]]
+A diferencia de los carbocationes que se forman en carbonos $\ce{ sp^3 }$, el carbocatión alílico formado en este caso, no suele trasponer. Esto se debe a que el enlace C-H que se rompe para transponer al H y luego se transforma en el orbital p libre, quedaría ortogonal al resto de los orbitales p que favorecerían a la resonancia. Esto hace que el estado de transición sea altamente energético. 
+![[Pasted image 20250825135357.png|center]]
+
