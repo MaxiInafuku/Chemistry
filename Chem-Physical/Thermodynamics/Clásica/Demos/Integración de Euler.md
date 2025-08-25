@@ -116,3 +116,4 @@ $$
 \end{align*}
 $$
 donde $x_{i}=n_{i} / n$ y por ende $\sum_{i} x_{i} = 1$.
+

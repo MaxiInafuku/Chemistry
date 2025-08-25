@@ -68,3 +68,10 @@ d\mu_{i} = -\bar{S}_{i} dT + \bar{V}_{i} dp + \sum_{j} \left( \frac{ \partial \m
 }
 \end{equation*}
 $$
+Para el caso particular de un compuesto puro, por integración de Euler ([[Integración de Euler#Potenciales termodinámicos]]) se tiene que:
+$$
+\begin{align*}
+G &= \mu n \Rightarrow
+\frac{G}{n} := \bar{G} = \mu 
+\end{align*}
+$$
