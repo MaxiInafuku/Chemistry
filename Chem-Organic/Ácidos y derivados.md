@@ -36,7 +36,7 @@ En medio ácido, la hidrólisis de ésteres es reversible. Por lo tanto, cuantio
 **Mecanismo:**
 ![[Pasted image 20250828184522.png|center|450]]
 
-En cambio, en presencia de NaOH, la hidrólisis es reversible, debido a que el carboxilato no puede ser atacado por el alcóxido, ya que al ser este una base tan fuerte, en medio básico se encontrará mayormente protonado. 
+En cambio, en presencia de NaOH, la hidrólisis es casi irreversible, debido a que el carboxilato no puede ser atacado por el alcóxido, ya que al ser este una base tan fuerte, en medio básico se encontrará mayormente protonado. 
 ![[Pasted image 20250828185314.png]]
 
 ### Reducción
