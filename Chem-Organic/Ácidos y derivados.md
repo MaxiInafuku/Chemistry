@@ -38,5 +38,23 @@ En medio ácido, la hidrólisis de ésteres es reversible. Por lo tanto, cuantio
 
 En cambio, en presencia de NaOH, la hidrólisis es casi irreversible, debido a que el carboxilato no puede ser atacado por el alcóxido, ya que al ser este una base tan fuerte, en medio básico se encontrará mayormente protonado. 
 ![[Pasted image 20250828185314.png]]
-
 ### Reducción
+Utilizando $\ce{ LiAlH_{4} }$, reductor fuerte, es posible reducir ácidos, ésteres y amidas a alcoholes o aminas. 
+En el caso particular de los ácidos y aminas, el primer producto es $\ce{ H_{2} }$ gaseoso. Luego se procede con la reducción hasta el alcohol.
+![[Pasted image 20250901175807.png|center]]
+Para otros derivados de ácidos, el mecanismo es similar.
+![[Pasted image 20250901180155.png|center]]
+
+### Formación de amidas a partir de nitrilos
+Se pueden formar tanto amidas como ácidos carboxílicos en medio ácido y básico. 
+$$
+\begin{equation*}
+\ce{ R-C\bond{#}N -> R-CO-NH_{2} -> RCOOH}
+\end{equation*}
+$$
+
+**Medio ácido:**
+![[Pasted image 20250901182340.png|center]]
+
+**Medio básico:**
+![[Pasted image 20250901182951.png|centerv]]

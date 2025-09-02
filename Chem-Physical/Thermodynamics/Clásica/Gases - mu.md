@@ -168,5 +168,59 @@ $$
 }
 \end{equation}
 $$
-
+## Mezcla de gases no ideales
+De forma análoga a la del gas no ideal puro, se agrega el factor de corrección $\varphi_{i}$ para cada componente en una mezcla de gases. El potencial químico de un gas en una mezcla queda definido entonces por:
+$$
+\begin{equation*}
+\boxed{
+\mu_{i} = \mu_{i}^{\theta} + RT \ln \frac{f_{i}}{p^{\theta}} \qquad 
+f_{i} = p_{i}\varphi_{i}
+}
+\end{equation*}
+$$
+Por las relaciones de Maxwell de $dG = -S dT + Vdp + \sum_{i} \mu_{i} dn_{i}$ (o lo enunciado en [[Potencial Químico]]), tenemos que: 
+$$
+\begin{align*}
+\left( \frac{ \partial \mu_{i} }{ \partial p } \right)_{T,n_{i}} &= 
+\left( \frac{ \partial V }{ \partial n_{i} }  \right)_{T,p,n_{j\neq i}} =
+\bar{V}_{i}
+\\
+\mu_{i}-\mu_{i}^{\theta} &= \int_{p^{\theta}}^{p} \bar{V}_{i} dp 
+= RT \ln \frac{p_{i}}{p^{\theta}} + RT \ln \varphi_{i}
+\end{align*}
+$$
+Reconociendo de nuevo que el estado estándar es el gas ideal a $p^{\theta}$ y utilizando lo visto en [[Gases - mu#Ideales#Mezcla ideal]]:
+$$
+\begin{align*}
+\int_{p^{\theta}}^{p} \bar{V}_{i} dp &= \int_{p^{\theta}}^{p\to 0} \bar{V}_{i,id} dp + \int_{p\to_{0}}^{p}\bar{V}_{i} dp 
+\\
+\left( \frac{ \partial \mu_{i}^{id} }{ \partial p }  \right)_{T,n_{j}} &= \bar{V}_{i,id} \qquad \Rightarrow \qquad 
+\mu_{i}^{id} - \mu_{i}^{\theta} =
+RT \ln \frac{p_{i}}{p^{\theta}} = 
+\int_{p^{\theta}}^{p} \bar{V}_{i,id}dp
+\end{align*}
+$$
+Por lo tanto, 
+$$
+\begin{align*}
+\mu_{i}-\mu_{i}^{\theta} &= \int_{p^{\theta}}^{p} \bar{V}_{i} dp  = 
+\int_{p^{\theta}}^{p\to 0} \bar{V}_{i,id} dp + \int_{p\to_{0}}^{p}\bar{V}_{i} dp  = 
+RT \ln \frac{p_{i}}{p^{\theta}} + RT \ln \varphi_{i} = 
+\int_{p^{\theta}}^{p} \bar{V}_{i,id}dp + RT\ln\varphi_{i}
+\\
+\int_{p^{\theta}}^{p\to 0} \bar{V}_{i,id} dp + \int_{p\to_{0}}^{p}\bar{V}_{i} dp &= 
+\int_{p^{\theta}}^{p} \bar{V}_{i,id}dp + RT\ln\varphi_{i}
+\\
+RT \ln\varphi_{i} &= \int_{p\to0}^{p} (\bar{V}_{i} - \bar{V}_{i,id}) dp = 
+\int_{p\to0}^{p} \left( \bar{V_{i}} - \frac{RT}{p} \right) dp
+\end{align*}
+$$
+Despejando:
+$$
+\begin{equation}
+\boxed{
+\ln\varphi = \int_{p\to0}^{p} \left( \frac{\bar{V}_{i}}{RT} - p \right) dp
+}
+\end{equation}
+$$
 
