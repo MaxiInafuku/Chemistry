@@ -189,7 +189,7 @@ $$
 = RT \ln \frac{p_{i}}{p^{\theta}} + RT \ln \varphi_{i}
 \end{align*}
 $$
-Reconociendo de nuevo que el estado estándar es el gas ideal a $p^{\theta}$ y utilizando lo visto en [[Gases - mu#Ideales#Mezcla ideal]]:
+Reconociendo de nuevo que el estado estándar es el gas ideal a $p^{\theta}$ y utilizando lo visto en [[Gases - potencial químico#Ideales#Mezcla ideal]]:
 $$
 \begin{align*}
 \int_{p^{\theta}}^{p} \bar{V}_{i} dp &= \int_{p^{\theta}}^{p\to 0} \bar{V}_{i,id} dp + \int_{p\to_{0}}^{p}\bar{V}_{i} dp 
@@ -219,7 +219,7 @@ Despejando:
 $$
 \begin{equation}
 \boxed{
-\ln\varphi = \int_{p\to0}^{p} \left( \frac{\bar{V}_{i}}{RT} - p \right) dp
+\ln\varphi = \int_{p\to0}^{p} \left( \frac{\bar{V}_{i}}{RT} - \frac{1}{p} \right) dp
 }
 \end{equation}
 $$

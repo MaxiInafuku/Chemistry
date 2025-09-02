@@ -47,7 +47,9 @@ $$
 $$
 Se puede partir de cualquier potencial termodinámico y el resultado será el mismo. Por ejemplo, partiendo de $G$:
 $$
-\begin{equation*}
+\begin{equation}
+\boxed{
 -SdT + Vdp = \sum_{i} n_{i} d\mu_{i}
-\end{equation*}
+}
+\end{equation}
 $$
