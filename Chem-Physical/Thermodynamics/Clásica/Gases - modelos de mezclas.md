@@ -175,3 +175,4 @@ $$
 $$
 Esto implica que si la mezcla cumple $\Delta_{12}=0$, la mezcla es ideal ([[Mezclas#Mezcla ideal]]), pese a que no sea una mezcla de gases ideales, ya que $\Delta_{12}=0$ solo implica que $B_{12} = (B_{11}+B_{22})/2$, o sea que el promedio de las interacciones individuales sea igual a la cruzada. 
 # Van der Waals
+Para el caso de un gas de VdW, la ecuación de estado sigue valiendo, 

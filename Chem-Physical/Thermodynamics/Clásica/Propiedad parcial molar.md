@@ -40,6 +40,32 @@ $$
 \end{equation}
 $$
 Esta última ecuación, muestra de forma implícita que la propiedad parcial molar $\bar{X}_{i}$ tiene $N-1$ variables (considerando que la $X$ tienen $N$ variables), ya que solo depende de la propiedad molar $\bar{X}$. Como se vio en [[Integración de Euler#Propiedad molar]], $\bar{X}$ es función de $N-1$ variables. 
+
+Si se tiene escrito $\bar{X}$ en función de otra componente $x_j$, puede llegar a ser conveniente cambiar la variable de la derivada. Para ello se utiliza regla de la cadena:
+$$
+\begin{align*}
+\frac{ \partial \bar{X} }{ \partial x_{i} } &= \frac{ \partial \bar{X} }{ \partial x_{j} } \frac{ \partial x_{j} }{ \partial x_{i} } 
+\\
+\frac{ \partial x_{j} }{ \partial x_{i} } &= 
+\frac{ \partial  }{ \partial x_{i} } \left( 1-\sum_{k\neq j} x_{k} \right) = - 
+\sum_{k\neq j} \frac{ \partial x_{k} }{ \partial x_{i} } =
+-\sum_{k\neq j} \delta_{ik} = -1
+\end{align*}
+$$
+Por lo tanto,
+$$
+\begin{equation*}
+\bar{X}_{i} = \bar{X} - (1-x_{i}) \frac{ \partial \bar{X} }{ \partial x_{j} } 
+\end{equation*}
+$$
+Esto es particularmente útil en el caso de dos componentes ya que:
+$$
+\begin{equation*}
+\bar{X}_{i} = \bar{X} + x_{j} \frac{ \partial \bar{X} }{ \partial x_{i} } = 
+\bar{X} - x_{j} \frac{ \partial \bar{X} }{ \partial x_{j} } 
+\end{equation*}
+$$
+con lo que si tengo una propiedad parcial molar dada en función de, por ejemplo, $x_1$, puedo calcular tanto $\bar{X}_{1}$ como $\bar{X}_{2}$ sin realizar el molesto cambio de variable $x_{i} = 1-x_{j}$. 
 # Error en apunte viejo
 Dice que una propiedad parcial molar es una propiedad intensiva. Para ver esto, parte de la definición de propiedad extensiva:
 $$
