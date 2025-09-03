@@ -169,6 +169,7 @@ $$
 \end{equation}
 $$
 ## Mezcla de gases no ideales
+### Potenciales químicos
 De forma análoga a la del gas no ideal puro, se agrega el factor de corrección $\varphi_{i}$ para cada componente en una mezcla de gases. El potencial químico de un gas en una mezcla queda definido entonces por:
 $$
 \begin{equation*}
@@ -219,8 +220,47 @@ Despejando:
 $$
 \begin{equation}
 \boxed{
-\ln\varphi = \int_{p\to0}^{p} \left( \frac{\bar{V}_{i}}{RT} - \frac{1}{p} \right) dp
+\ln\varphi_{i} = \int_{p\to0}^{p} \left( \frac{\bar{V}_{i}}{RT} - \frac{1}{p} \right) dp
 }
 \end{equation}
 $$
+### Propiedades termodinámicas
+Una vez calculado los potenciales químicos, es posible obtener las propiedades termodinámicas asociadas al mezclado ([[Mezclas#Entalpía libre]]). 
+$$
+\begin{align*}
+&\text{mezcla ideal} & \mu_{i}^{id} &= \mu_{i}^{\theta} + RT \ln \frac{p^0 y_{i}}{p^{\theta}}
+\\
+&\text{puro} & \mu_{i}^{*} &= \mu_{i}^{\theta} + RT \ln \frac{p^{0}\varphi^{*}_{i}}{p^{\theta}}
+\\
+&\text{en mezcla} & \mu_{i} &= \mu_{i}^{\theta} + RT \ln \frac{p^{0}y_{i}\varphi_{i}}{p^{\theta}}
+\end{align*}
+$$
+donde recordamos que la mezcla se hace de tal forma que la presión inicial del sistema es la misma que la presión final. Es decir, todos los gases puros tiene $p_i^{ini} = p^0$ y la presión final del sistema $p=\sum_{i} p_{i} = p^{0}$. 
 
+De esta forma tenemos que:
+$$
+\begin{align*}
+\Delta_{mix}G &= \sum_{i} n_{i} \left( RT \ln \frac{p^{0}y_{i}\varphi_{i}}{p^\theta} - RT \ln \frac{p^{0}\varphi_{i}^{*}}{p^{\theta}} \right) 
+\\
+\Delta_{mix}G &= RT \sum_{i} n_{i} \ln \frac{\varphi_{i}}{\varphi_{i}^{*}} + RT \sum_{i} n_{i} \ln y_{i} = RT \sum_{i} n_{i} \ln \frac{\varphi_{i}}{\varphi_{i}^{*}} + \Delta_{mix}^{id}G
+\end{align*}
+$$
+Mientras que para el $G^{ex}$ tenemos que:
+$$
+\begin{align*}
+G^{ex} &= \sum_{i} n_{i} \left( RT \ln \frac{p^{0}y_{i}\varphi_{i}}{p^{\theta}} - RT \ln \frac{p^{0}y_{i}}{p^{\theta}} \right) 
+\\
+G^{ex} &= RT \sum_{i} n_{i} \ln \varphi_{i}
+\end{align*}
+$$
+Es común a veces, denominar $\mu_i^{ex} = RT \ln \varphi$, ya que de esta forma se obtiene una ecuación similar a la integrada por Euler, tal que $G^{ex} = \sum_{i} n_{i} \mu_{i}^{ex}$.
+
+Podemos ver claramente que en este caso, el cambio de entalpía libre del proceso de mezcla y el exceso, difieren.
+$$
+\begin{equation}
+\boxed{
+\Delta_{mix}G = \sum_{i} n_{i} RT\ln \frac{\varphi_{i}}{\varphi_{i}^{*}} + \sum_{i}n_{i} RT \ln y_{i} \qquad 
+G^{ex} = \sum_{i} n_{i} RT \ln \varphi_{i} = \sum_{i} n_{i} \mu_{i}^{ex}
+}
+\end{equation}
+$$

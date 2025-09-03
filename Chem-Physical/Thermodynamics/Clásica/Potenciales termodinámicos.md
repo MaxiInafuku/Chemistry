@@ -101,3 +101,4 @@ dG &= -SdT + Vdp + \sum_{i} \mu_{i} dn_{i} + \sum_{j} P_{j} dX_{j}
 = - \frac{1}{(\partial^{2}U / \partial V^{2})_{S,n_{j},X_{j}}}
 \end{align*}
 $$
+
