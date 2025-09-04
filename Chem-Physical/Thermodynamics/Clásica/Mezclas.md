@@ -12,7 +12,18 @@ $$
 X^{ex} = X - X^{id}
 \end{equation*}
 $$
-donde $X$ representa la propiedad de la mezcla y $X^{id}$ la propiedad, si esta fuera ideal. 
+donde $X$ representa la propiedad de la mezcla y $X^{id}$ la propiedad de la mezcla con comportamiento ideal. 
+
+La relación entre ambas propiedades es:
+$$
+\begin{align*}
+X &= \Delta_{mix}X - \sum_{i} X_{i}^{*} 
+\\ \Rightarrow
+X^{ex} &= \Delta_{mix}X + \sum_{i} X_{i}^{*} - X^{id}
+\\
+X^{ex} &= \Delta_{mix}X - \left( X^{id} - \sum_{i} X_{i}^{*} \right)
+\end{align*}
+$$
 
 # Volumen
 El volumen está definido de por [[Integración de Euler]] por:
